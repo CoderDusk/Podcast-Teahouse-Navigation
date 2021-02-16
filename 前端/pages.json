@@ -1,0 +1,69 @@
+{
+	// 配置easycom组件模式(uView)
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+
+			}
+		}
+	    ,{
+            "path" : "pages/podcast/podcast",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/export/export",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/link/link",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar":{
+		"color":"#2c2c2c",
+		"selectedColor":"#86C166",
+		"backgroundColor":"white",
+		"height":"70px",
+		"iconWidth":"35px",
+		"fontSize":"15px",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/home.png",
+			"selectedIconPath":"static/home-active.png",
+			"text":"首页"
+		},{
+			"pagePath":"pages/export/export",
+			"iconPath":"static/export.png",
+			"selectedIconPath":"static/export-active.png",
+			"text":"导出列表"
+		}]
+	},
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "播客茶馆",
+		"navigationStyle":"custom",
+		"autoscan":true
+	}
+}

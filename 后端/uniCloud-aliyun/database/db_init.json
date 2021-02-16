@@ -1,0 +1,516 @@
+{
+    "category": {
+        "data": [
+            {
+                "_id": {
+                    "$oid": "600385bb9fea3c000190e9f5"
+                },
+                "name": "影视",
+                "sort": "10",
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "601af50fe910650001f1023f"
+                },
+                "name": "人文",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "6029f9ae6cea450001061fef"
+                },
+                "name": "游戏",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "6029f9d720be4e0001fd94cd"
+                },
+                "name": "访谈",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "name": "聊天&脱口秀",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "602a0c4d54a29f000104a09a"
+                },
+                "name": "科技",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "602a0d2ca112ea0001fb3206"
+                },
+                "name": "其他",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "602a11a2002aec0001c0dbcf"
+                },
+                "name": "故事&杂谈",
+                "sort": 0,
+                "type": "podcast"
+            },
+            {
+                "_id": {
+                    "$oid": "602a1a7c20be4e0001fdedb1"
+                },
+                "name": "推荐客户端",
+                "sort": 0,
+                "type": "link"
+            },
+            {
+                "_id": {
+                    "$oid": "602a1a97c9e7be000118a6a7"
+                },
+                "name": "播客制作教程、经验",
+                "sort": 0,
+                "type": "link"
+            },
+            {
+                "_id": {
+                    "$oid": "602a2336f6094a00019e1064"
+                },
+                "name": "RSS 源",
+                "sort": 0,
+                "type": "link"
+            }
+        ]
+    },
+    "link": {
+        "data": [
+            {
+                "_id": {
+                    "$oid": "602a228820be4e0001fe0377"
+                },
+                "name": "Pocket Casts",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/cfa5a0bb-7c62-4629-ad3a-2dc04d2be847.png",
+                "categoryID": {
+                    "$oid": "602a1a7c20be4e0001fdedb1"
+                },
+                "categoryName": "推荐客户端",
+                "description": "全平台软件，移动端免费，桌面端（含Web）需要订阅会员，登录账号后可同步播放记录和进度。",
+                "link": "https://www.pocketcasts.com/",
+                "sort": 0
+            },
+            {
+                "_id": {
+                    "$oid": "602a2308d6547d00017e8fea"
+                },
+                "name": "小宇宙",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/2c4a64bf-39ce-4429-a10d-fd18ad3a0b92.png",
+                "categoryID": {
+                    "$oid": "602a1a7c20be4e0001fdedb1"
+                },
+                "categoryName": "推荐客户端",
+                "description": "有审查的非通用播客客户端，只有移动客户端，免费。有每日更新的播客推荐。",
+                "link": "https://www.xiaoyuzhoufm.com/",
+                "sort": 0
+            },
+            {
+                "_id": {
+                    "$oid": "602a240934dcf3000135e709"
+                },
+                "name": "getpodcast.xyz",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/231f8e13-ee64-4e90-8ff1-219912675bf1.ico",
+                "categoryID": {
+                    "$oid": "602a2336f6094a00019e1064"
+                },
+                "categoryName": "RSS 源",
+                "description": "中文播客推荐",
+                "link": "https://getpodcast.xyz/",
+                "sort": 0
+            },
+            {
+                "_id": {
+                    "$oid": "602a24a8e857bd000134a0fb"
+                },
+                "name": "Listen Notes",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/e33c74b0-de42-462d-b515-20b2f8eea6a8.png",
+                "categoryID": {
+                    "$oid": "602a2336f6094a00019e1064"
+                },
+                "categoryName": "RSS 源",
+                "description": "播客搜索引擎，包含世界各地的播客。更丰富的数据、更强大的功能。",
+                "link": "https://www.listennotes.com/",
+                "sort": 0
+            },
+            {
+                "_id": {
+                    "$oid": "602a2570b6ce210001abdb3d"
+                },
+                "name": "RSSHub",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/3a150629-2ae6-4d7e-bee5-b5c6ef043404.png",
+                "categoryID": {
+                    "$oid": "602a2336f6094a00019e1064"
+                },
+                "categoryName": "RSS 源",
+                "description": "RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。你可以用它自己生成播客RSS，也可以在这个页面查找已有的订阅源。",
+                "link": "https://docs.rsshub.app/",
+                "sort": 0
+            },
+            {
+                "_id": {
+                    "$oid": "602a264ad6547d00017e98b3"
+                },
+                "name": "Bilibili 创作学院",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/30e777aa-dfd2-43c0-8953-426fc0a39f5d.png",
+                "categoryID": {
+                    "$oid": "602a1a97c9e7be000118a6a7"
+                },
+                "categoryName": "播客制作教程、经验",
+                "description": "视频网站 Bilibili 官方收集整理的视频制作教程，其中录音、视频制作等内容可以用来学习制作播客。",
+                "link": "https://member.bilibili.com/academy/home",
+                "sort": 0
+            }
+        ]
+    },
+    "opendb-admin-menus": {
+        "data": []
+    },
+    "opendb-verify-codes": {
+        "data": []
+    },
+    "podcast": {
+        "data": [
+            {
+                "_id": {
+                    "$oid": "601b434348a32d0001a05018"
+                },
+                "name": "黑水公园",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/305034bc-8a4f-4c63-a61d-e374eadc81e7.jpg",
+                "categoryID": {
+                    "$oid": "600385bb9fea3c000190e9f5"
+                },
+                "categoryName": "影视",
+                "host": "赵艾文 / 金花",
+                "description": "黑水公园是一档以电影、剧集、科幻、动漫为载体，畅谈人生的趣谈节目。（金花微信：zhaotie6969zhaotie；金花微博：黑水公园_金花",
+                "link": "https://www.ximalaya.com/album/3558668.xml",
+                "sort": 0,
+                "isRecommended": true,
+                "rssLink": "www.ximalaya.com/album/3558668.xml",
+                "xiaoyuzhouLink": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fba0d"
+            },
+            {
+                "_id": {
+                    "$oid": "602a080834dcf30001359b43"
+                },
+                "name": "机核电台 Gadio",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/86ad2e38-e967-41fe-afc2-a99a60d1da20.webp",
+                "categoryID": {
+                    "$oid": "6029f9ae6cea450001061fef"
+                },
+                "categoryName": "游戏",
+                "host": "机核网",
+                "description": "机核网 gcores.com 「不止是游戏」，机核从年轻人的兴趣出发，旨在用亲切幽默地风格在游戏、电影、音乐、消费等不同领域提供有价值的精致内容，把有着各种兴趣爱好的年轻人聚集在一起，在这个无趣的世界里，找到一处属于自己的安宁之乡。",
+                "rssLink": "feed.tangsuanradio.com/gadio.xml",
+                "sort": 0,
+                "isRecommended": true
+            },
+            {
+                "_id": {
+                    "$oid": "602a0c28f6094a00019dd2b6"
+                },
+                "name": "日谈公园",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/8d034601-3294-4475-9494-6293da7da25c.webp",
+                "categoryID": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "categoryName": "聊天&脱口秀",
+                "host": "李叔、小伙子",
+                "description": "“日谈公园“是由文娱领域资深人士李叔（李志明）和小伙子（冯广健）共同主持的脱口秀播客节目，畅聊电影音乐文学动漫热门作品，分享旅行美食消费时尚生活方式，更有各路名人趣士谈天谈地谈笑风生谈未来过去。我想说的，你想听的，都在日谈公园。",
+                "rssLink": "www.ximalaya.com/album/5574153.xml",
+                "sort": 0,
+                "isRecommended": true
+            },
+            {
+                "_id": {
+                    "$oid": "602a0c93a112ea0001fb309b"
+                },
+                "name": "内核恐慌",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/2a6b4b24-3e3d-4f83-b85f-b67a4df91d82.png",
+                "categoryID": {
+                    "$oid": "602a0c4d54a29f000104a09a"
+                },
+                "categoryName": "科技",
+                "host": "吴涛、Rio",
+                "description": "一档号称硬核却也没什么干货的 IT 技术主题娱乐节目",
+                "rssLink": "pan.icu/feed",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0d6c5dc5370001d7373b"
+                },
+                "name": "疯投圈",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/1f26ff2f-6e02-4af7-9384-0c2269651ab9.png",
+                "categoryID": {
+                    "$oid": "602a0d2ca112ea0001fb3206"
+                },
+                "categoryName": "其他",
+                "host": "黄海、Rio",
+                "description": "风险投资,风投,VC,venture capital,疯投圈,疯投,crazy capital,crazy,capital",
+                "rssLink": "crazy.capital/feed",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0dcdd6547d00017e5700"
+                },
+                "name": "跟宇宙结婚",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/747d9450-f4dd-4073-9b1b-afba07f000ef.jpg",
+                "categoryID": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "categoryName": "聊天&脱口秀",
+                "host": "青年、小伙子、刀夫",
+                "description": "《跟宇宙结婚》节目是一档巨型文化知识类聊天节目，妄图传播各种无用/冷门/过时但有趣的知识，主播队伍由小伙子、青年、刀夫三位老师领衔。内容丰富多彩，气氛诙谐调皮，是您生活中的良师益友。",
+                "rssLink": "rss.lizhi.fm/rss/1307862.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0e306cea450001065a87"
+                },
+                "name": "一席",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/1e24af24-e422-4f46-af13-fe309d4e314d.jpg",
+                "categoryID": {
+                    "$oid": "6029f9d720be4e0001fd94cd"
+                },
+                "categoryName": "访谈",
+                "host": "一席",
+                "description": "听君一席话，胜读十年书。 一席鼓励分享见解、体验和对未来的想象。 一席做有价值的传播，2012年8月底起将以每月一期的频率，邀请人文、科技领域有故事、有智识的嘉宾前来分享。",
+                "rssLink": "www.ximalaya.com/album/242812.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0ee9f6094a00019dda74"
+                },
+                "name": "VGTIME 游戏时光",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/dbe73bb8-6e0d-4be4-9ddd-f8208a2cd111.jpg",
+                "categoryID": {
+                    "$oid": "6029f9ae6cea450001061fef"
+                },
+                "categoryName": "游戏",
+                "host": "VGTIME",
+                "description": "VG聊天室，游戏时光电台节目，与你分享最美好的游戏时光。",
+                "rssLink": "rss.lizhi.fm/rss/2017105.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0f876cea450001065e21"
+                },
+                "name": "无聊斋",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/95138fb5-aa50-4a40-aa97-9cae5fbb96bd.jpg",
+                "categoryID": {
+                    "$oid": "6029f9d720be4e0001fd94cd"
+                },
+                "categoryName": "访谈",
+                "host": "无聊斋",
+                "description": "三个单口喜剧演员的清谈节目。无聊斋，无聊的时候听一听。",
+                "rssLink": "www.ximalaya.com/album/14302859.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a0fc8d6547d00017e5c79"
+                },
+                "name": "谐星聊天会",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/05795b10-d664-4be2-89eb-bb2eb03ce46c.jpg",
+                "categoryID": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "categoryName": "聊天&脱口秀",
+                "host": "谐星聊天会",
+                "description": "谐星聊天会是一档单口喜剧演员与听众一同线下录制完成的音频节目，用幽默开解生活中的沉杂琐事！",
+                "rssLink": "www.ximalaya.com/album/30516031.xml",
+                "sort": 0,
+                "isRecommended": true
+            },
+            {
+                "_id": {
+                    "$oid": "602a11fdf6094a00019de29b"
+                },
+                "name": "牛油果烤面包",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/71fe80d9-9410-490a-b010-23d28bb9269d.webp",
+                "categoryID": {
+                    "$oid": "602a0c4d54a29f000104a09a"
+                },
+                "categoryName": "科技",
+                "host": "牛油果烤面包",
+                "description": "科技发展趋势，各行业来龙去脉，我们坐标硅谷，邀请第一线的资深专家分享给大家听！",
+                "rssLink": "www.ximalaya.com/album/29161862.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a1275fac28b0001aab43f"
+                },
+                "name": "八分",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/92cacd2b-2e7e-45bb-8788-7ae240e6e5ce.png",
+                "categoryID": {
+                    "$oid": "601af50fe910650001f1023f"
+                },
+                "categoryName": "人文",
+                "host": "梁文道",
+                "description": "「八分」是由梁文道和看理想团队共同打造的一档全新文化类音频节目。梁文道将和你一起从理想走到现实，重新审视文化现象，社会趋势和热点话题。",
+                "rssLink": "api.vistopia.com.cn/rss/program/11.xml",
+                "sort": 0,
+                "isRecommended": true
+            },
+            {
+                "_id": {
+                    "$oid": "602a12c0ef338d00019e6718"
+                },
+                "name": "故事 FM",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/179800ea-eb09-48e0-96c4-c9db67cbd458.png",
+                "categoryID": {
+                    "$oid": "602a11a2002aec0001c0dbcf"
+                },
+                "categoryName": "故事&杂谈",
+                "host": "寇爱哲",
+                "description": "欢迎收听故事 FM 。在这里，我们用你的声音，讲述你的故事。每周一、三、五，各平台同步更新。",
+                "rssLink": "storyfm.cn/feed/episodes",
+                "sort": 0,
+                "isRecommended": true
+            },
+            {
+                "_id": {
+                    "$oid": "602a130ef6094a00019de541"
+                },
+                "name": "反派影评",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/0d69705e-0628-46d4-aa30-a06a245e9362.jpg",
+                "categoryID": {
+                    "$oid": "600385bb9fea3c000190e9f5"
+                },
+                "categoryName": "影视",
+                "host": "波米和他的朋友们",
+                "description": "若批评不自由，则赞美无意义。党同伐异，猛于炮火。",
+                "rssLink": "raw.githubusercontent.com/Reyshawn/FanpieFilmFeed/master/fanPieFilm.rss",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a15d480533800016b0133"
+                },
+                "name": "嘻谈录",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/a97ec99c-61e6-45ff-8f7c-3f329f38e419.png",
+                "categoryID": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "categoryName": "聊天&脱口秀",
+                "host": "喜剧联盒国",
+                "description": "每期《嘻谈录》，都是我们招募观众完成的录制，每期我们邀请3-4名脱口秀演员嘉宾朋友，聊一些生活中鸡毛蒜皮的小事儿，聊出新意思。",
+                "rssLink": "www.ximalaya.com/album/43044571.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a164bfac28b0001aabe38"
+                },
+                "name": "超级游文化",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/4e611e4b-0755-4b0b-9fc2-53314a871e98.jpg",
+                "categoryID": {
+                    "$oid": "6029f9ae6cea450001061fef"
+                },
+                "categoryName": "游戏",
+                "host": "超级游文化",
+                "description": "播客公社出品，每周六更新。  畅谈游戏背后的文化与生活，  交流与建议请搜索播客公社，私信注明“超游”",
+                "rssLink": "www.ximalaya.com/album/26799004.xml",
+                "sort": 0,
+                "isRecommended": false
+            },
+            {
+                "_id": {
+                    "$oid": "602a16a1ef338d00019e7159"
+                },
+                "name": "车间访谈",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/7c9f2541-6b47-433d-86d4-af568211bab9.jpg",
+                "categoryID": {
+                    "$oid": "6029f9e45dc5370001d7005b"
+                },
+                "categoryName": "聊天&脱口秀",
+                "host": "笑果工厂",
+                "description": "「车间访谈」是在笑果工厂（上海）定期举办的现场访谈秀。 每期针对一个主题，邀请脱口秀演员、编剧们来聊一聊喜剧和喜剧之外的一切。 两周更新一次，可以听到关于笑果爆款节目的台前幕后，以及演员编剧们关于各类话题的个人观点。",
+                "rssLink": "www.ximalaya.com/album/25413017.xml",
+                "sort": 0,
+                "isRecommended": false
+            }
+        ]
+    },
+    "setting": {
+        "data": [
+            {
+                "_id": {
+                    "$oid": "60028114d06eec00013310cb"
+                },
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6fec5402-1210-4b81-9949-97c1987784b9/9a5fe20a-990b-4806-8a0c-f5c397727296.jpg",
+                "submitMethod": "如果您想提交新的播客、链接，或者对网站有任何意见建议，欢迎发送邮件到 coderdusk@qq.com\n\n提交播客的必须提供RSS服务，建议按照以下格式发送：\n（1）以下必填\n播客名称：\n播客分类：\nRSS链接：\n（2）以下希望您也能提供\nlogo：\n主持人：\n简介：（可以是您的推荐语，也可以是您对这个播客的概括简介）\n小宇宙链接：\n\n提交链接须按照以下格式填写：\n链接名称：\nlogo：\n链接分类：\n简介：\n链接："
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                },
+                "logo": {
+                    "description": "logo地址"
+                }
+            }
+        }
+    },
+    "uni-id-permissions": {
+        "data": []
+    },
+    "uni-id-roles": {
+        "data": [
+            {
+                "_id": {
+                    "$oid": "60023171b4900a0001363100"
+                },
+                "role_id": "admin",
+                "role_name": "超级管理员",
+                "permission": [],
+                "comment": "超级管理员拥有所有权限",
+                "create_date": 0
+            }
+        ]
+    },
+    "uni-id-users": {
+        "data": [
+        ]
+    }
+}
